@@ -47,3 +47,17 @@
 	<dlfcn.h>
 	<GL/glx.h>
 
+1512499803 source:c:\openglprojects\openglproject\main.cpp
+	<iostream>
+	<GL/gl3w.h>
+	<GLFW/glfw3.h>
+	<GL/gl.h>
+
+1512499803 source:c:\openglprojects\openglproject\src\gl3w.c
+	<GL/gl3w.h>
+	<stdlib.h>
+	<windows.h>
+	<dlfcn.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
