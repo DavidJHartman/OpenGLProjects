@@ -47,11 +47,9 @@
 	<dlfcn.h>
 	<GL/glx.h>
 
-1512499803 source:c:\openglprojects\openglproject\main.cpp
+1512523883 source:c:\openglprojects\openglproject\main.cpp
 	<iostream>
-	<GL/gl3w.h>
-	<GLFW/glfw3.h>
-	<GL/gl.h>
+	<Application.hpp>
 
 1512499803 source:c:\openglprojects\openglproject\src\gl3w.c
 	<GL/gl3w.h>
@@ -60,4 +58,52 @@
 	<dlfcn.h>
 	<dlfcn.h>
 	<GL/glx.h>
+
+1512500748 c:\gl3w\include\gl\gl3w.h
+	<GL/glcorearb.h>
+
+1512500748 c:\gl3w\include\gl\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1512500854 c:\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1512523833 c:\openglprojects\openglproject\include\application.hpp
+	<string>
+	<GL/gl3w.h>
+	<GLFW/glfw3.h>
+	<GL/gl.h>
+	<inputHandler.hpp>
+
+1512524135 source:c:\openglprojects\openglproject\src\application.cpp
+	<Application.hpp>
+
+1512524149 c:\openglprojects\openglproject\include\inputhandler.hpp
+	<iostream>
+	<GLFW/glfw3.h>
 

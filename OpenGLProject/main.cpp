@@ -1,33 +1,20 @@
 #include <iostream>
-#include <GL/gl3w.h>
-#include <GLFW/glfw3.h>
-#include <GL/gl.h>
+#include <Application.hpp>
 
 using namespace std;
 
 int main( int argc, char** argv )
 {
 
-    glfwInit();
+    App::OpenGLWindow window( 800, 600, "OpenGL Project" );
 
-    GLFWwindow* window;
+    while ( !window.ShouldClose() ) {
 
-    window = glfwCreateWindow( 640, 480, "OpenGL Application", nullptr, nullptr );
-
-    glfwMakeContextCurrent( window );
-
-    gl3wInit();
-
-    while ( !glfwWindowShouldClose( window ) ) {
-
-        glfwSwapBuffers( window );
-        glfwPollEvents();
+        window.Update();
+        window.display();
+        window.pollEvents();
 
     }
-
-    glfwDestroyWindow( window );
-
-    glfwTerminate();
 
     return 0;
 }

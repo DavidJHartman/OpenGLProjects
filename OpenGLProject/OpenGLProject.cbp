@@ -31,16 +31,20 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="E:/gl3w/include" />
-			<Add directory="E:/glfw/include" />
+			<Add directory="C:/gl3w/include" />
+			<Add directory="C:/glfw/include" />
+			<Add directory="C:/OpenGLProjects/OpenGLProject/include" />
 		</Compiler>
 		<Linker>
 			<Add library="opengl32" />
 			<Add library="glfw3" />
 			<Add library="gdi32" />
-			<Add directory="E:/glfw/lib-mingw" />
+			<Add directory="C:/glfw/lib-mingw" />
 		</Linker>
+		<Unit filename="include/Application.hpp" />
+		<Unit filename="include/inputHandler.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Application.cpp" />
 		<Unit filename="src/gl3w.c">
 			<Option compilerVar="CC" />
 		</Unit>
